@@ -1,10 +1,11 @@
 body{
         box-shadow: inset;
     padding: 0;
-    max-width: 960px;
+    max-width: 1060px;
     margin: o auto;
     display: block;
     background-image:"";
+    margin: auto;
 }
 * {
     box-sizing: border-box;
@@ -13,12 +14,12 @@ html {
     font-size: 16px;
     font-family: sans-serif;
     color: rgb(233, 208, 176);
-    background-color: rgb(61, 168, 133);
-}
+    background-image:url(https://imgs.search.brave.com/qmzxptaVlGVMO3Ycp1pP6ebuoJ-8E7FP9FR84GzOJqc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIw/NDYyMzEyMC9waG90/by9mZXJucy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Q0Q0/LUxHZHNUaExXTnRS/ZENQWXV5RUFrNUU4/S2ZTVkpaYzF0TEkt/bUVDND0);
 main{
     min-height: 100vh;
     padding: 85px 24px 96px;
     font-family: 'open sans', sans serif;
+    background: rgb(87, 126, 83);
 }
 p {
     display: block;
@@ -33,6 +34,7 @@ section {
     text-wrap: pretty;
     background: rgb(87, 126, 83);
     color: antiquewhite;
+    text-align: center;
 }
 .project {
     width: 100%;
@@ -44,5 +46,18 @@ section {
 }
 img {
     max-width: 600px;
-    max-height: 200px;
+    max-height: 400px;
+    min-width: 250px;
+    min-height: 100px;
+    height: 30%;
+}
+nav {
+    background: rgb(87, 126, 83);   
+    text-align: center;
+}
+h2 {
+    text-align: center;  
+}
+.section img {
+    width: 100%;
 }
